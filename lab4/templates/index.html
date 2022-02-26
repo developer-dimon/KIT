@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>Static Template</title>
+</head>
+<body>
+<div class="card-container">
+    <span class="api">API</span>
+    <img class="round" src="https://image.freepik.com/free-icon/important-person_318-10744.jpg" id="Avatar" alt="user"/>
+    <div class="info">
+        <ul>
+            <li id="Female">Пол:</li>
+            <li id="Surname">Фамилия Имя:</li>
+            <li id="Address">Город:</li>
+            <li id="Email">Email:</li>
+            <li id="DataAge">Дата рождения и возраст:</li>
+            <li id="Phone">Телефон:</li>
+        </ul>
+    </div>
+    <button type="button" class="primary-ghost" onclick="getResponse()" id="loader"> Get user</button>
+    <div class="card-footer">
+    </div>
+</div>
+<script src="../js/fetch.js"></script>
+</body>
+</html>
