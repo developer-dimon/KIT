@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="flex-header">
+    HEADER
+</div>
+<main class="flex-main">
+    <div class="flex-article">
+        <div class="main_calc">
+            <h3>Калькулятор квадратных уравнений</h3>
+            <div class="calc">
+                <input class="input_calc" placeholder="A" id="A"/>
+                <span>x2 + </span>
+                <input class="input_calc" placeholder="B" id="B"/>
+                <span>x + </span>
+                <input class="input_calc" placeholder="C" id="C"/>
+                <span> = 0</span>
+            </div>
+            <button onclick="calc()" class="button_calc">Решить уравнение</button>
+
+            <p id="result"></p>
+        </div>
+    </div>
+    <div class="flex-aside">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="calc.html">Calculator</a></li>
+        </ul>
+
+    </div>
+</main>
+<div class="flex-footer">
+    FOOTER
+</div>
+<script src="../js/calc.js"></script>
+</body>
+</html>
