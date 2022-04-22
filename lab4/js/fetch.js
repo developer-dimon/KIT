@@ -4,6 +4,7 @@ async function getResponse() {
     span.style = "width: 1rem; height: 1rem; border-width: .2em;";
     document.getElementById("loader").appendChild(span);
     const response = await fetch("https://randomuser.me/api/");
+    //test
     if (response) {
         span.parentNode.removeChild(span);
     }
